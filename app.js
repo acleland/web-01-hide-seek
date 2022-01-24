@@ -37,9 +37,9 @@ boulderButton.addEventListener('click', () => {
 
 function handleGuess(userGuess, correctSpot) {
     // reset the styles
-    shedContainer.classList.remove("face");
-    treeContainer.classList.remove("face");
-    boulderContainer.classList.remove("face");
+    shedContainer.classList.remove('face');
+    treeContainer.classList.remove('face');
+    boulderContainer.classList.remove('face');
     // then increment the guesses
     totalGuesses += 1;
     // then grab the appropriate container element for the correct guess from the DOM
